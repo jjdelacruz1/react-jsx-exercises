@@ -1,15 +1,15 @@
 let Header = () => {
-    return <span>Design a header for your blog</span>
+    return <h1 class="bg-dark text-light font-weight-bold">My Super Awesome Blog!!! By Jerome</h1>
 }
 let Article = () => {
-    return <span>Write and design your blog article</span>
+    return <div class="text-monospace"><p>Here is the first part of my blog to try and understand how all this works. Who knows what it will look like after I really figure it out!!!!</p><p>Here is more stuff that I want to write.</p></div>
 }
 let Footer = () => {
-    return <span>Design a footer for your blog</span>
+    return <div><h3>Contact Info</h3> <a href="#">jjdelacruz1@gmail.com</a></div>
 }
 
 let Blog = () => {
-    return <span>Make this Component render the header, article, and footer</span>
+    return <div><Header /> <Article /> <Footer /></div>
 }
 
 
