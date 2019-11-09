@@ -1,12 +1,12 @@
 let FirstComponent = () => {
-    return <div class="container d-flex w-50 h-50 justify-content-center">
-             <div class="left h-50">
-               <div class="red">RED</div>
-               <div class="blue">BLUE</div>
+    return <div className="container d-flex w-50 h-100 justify-content-center">
+             <div className="left">
+               <div className="red">RED</div>
+               <div className="blue">BLUE</div>
              </div>
-             <div class="right h-50">
-               <div class="green">GREEN</div>
-               <div class="yellow">YELLOW</div>
+             <div className="right">
+               <div className="green col">GREEN</div>
+               <div className="yellow col">YELLOW</div>
              </div>
            </div>
     
