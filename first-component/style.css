@@ -1,3 +1,27 @@
-body {
+.red {
+  background: red;
+  height: 200px;
+  width: 200px;
+  margin: 10px;
+}
+
+.green {
+  background: green;
+  height: 200px;
+  width: 200px;
+  margin: 10px;
+}
+
+.blue {
   background: blue;
+  height: 200px;
+  width: 200px;
+  margin: 10px;
+}
+
+.yellow {
+  background: yellow ;
+  height: 200px;
+  width: 200px;
+  margin: 10px;
 }
