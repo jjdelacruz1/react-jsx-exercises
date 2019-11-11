@@ -1,5 +1,5 @@
 let ListGroupItem = () => {
-    return <ul className="list-unstyled"><li className="list-group-item">Cras justo odio</li>
+    return <ul className="list-group list-unstyled"><li className="list-group-item">Cras justo odio</li>
     <li className="list-group-item">Dapibus ac facilisis in</li>
     <li className="list-group-item">Morbi leo risus</li>
     <li className="list-group-item">Porta ac consectetur ac</li>
